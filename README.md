@@ -1,4 +1,4 @@
-# DPG Workflows tutorial 2023
+# DGM workshop 2023
 
 Repository link: https://github.com/pyiron/dpg-workflows-tutorial-2023
 
