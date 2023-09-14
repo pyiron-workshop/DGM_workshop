@@ -1,0 +1,11 @@
+# <font style="font-family:roboto;color:#455e6c"> Data analysis and workflows in Materials science </font>  
+
+S. Menon  
+Max-Planck-Institut für Eisenforschung GmbH  
+
+Presented as part of [DGM-Nachwuchsforum 2023](https://dgm.de/de/netzwerk/nachwuchs/veranstaltungen/dgm-nachwuchsforum-2023) on 25.04.2023  
+
+A paradigm shift in the field of materials science towards data-driven approaches and digitalisation goes hand in hand with the generation of vast amounts of experimental and simulation data. The analysis and effective use of this data is critical to enhancing our understanding of materials and accelerating materials research. Python has emerged as a programming language of choice for this task in materials science due to its flexibility and ease of use. The tutorial will start with an introduction to python through jupyter notebooks. Furthermore, the participant will gain insight into performing typical simulations in materials science, followed by tools and methods for efficient post-processing and analysis of data. We employ pyiron, an integrated development environment for computational materials science, as a representative software in the tutorial. Overall, it will provide early career researchers tools to streamline their scientific workflows and manage data efficiently.
+
+```{tableofcontents}
+```
