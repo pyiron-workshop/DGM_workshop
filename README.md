@@ -1,37 +1,5 @@
 # DGM workshop 2023
 
-Repository link: https://github.com/pyiron/dpg-workflows-tutorial-2023
+Presented as part of [DGM-Nachwuchsforum 2023](https://dgm.de/de/netzwerk/nachwuchs/veranstaltungen/dgm-nachwuchsforum-2023) on 25.04.2023  
 
-This repository contains the materials presented during the DPG workflows tutorial organised on 26 March 2023. 
-
-## Creating the environment
-
-The conda environment which includes all the necessary packages is specified in the `environment.yml` file. The environment can be created using:
-
-```
-conda env create -f environment.yml  
-```
-
-Once the environment is created, it can be activated using `conda activate potentials`. Additionally the following commands need to be run to install other necessary packages.
-
-```
-git clone https://github.com/ICAMS/TensorPotential
-cd TensorPotential
-python setup.py install
-cd ..
-
-git clone https://github.com/ICAMS/python-ace
-cd python-ace
-python setup.py install
-cd ..
-```
-
-## Building the documentation
-
-To be build the documentation, from the main directory, run:
-
-```
-jb build .
-```
-
-You can view the documentation at [`_build/index.html`](_build/index.html).
+A paradigm shift in the field of materials science towards data-driven approaches and digitalisation goes hand in hand with the generation of vast amounts of experimental and simulation data. The analysis and effective use of this data is critical to enhancing our understanding of materials and accelerating materials research. Python has emerged as a programming language of choice for this task in materials science due to its flexibility and ease of use. The tutorial will start with an introduction to python through jupyter notebooks. Furthermore, the participant will gain insight into performing typical simulations in materials science, followed by tools and methods for efficient post-processing and analysis of data. We employ pyiron, an integrated development environment for computational materials science, as a representative software in the tutorial. Overall, it will provide early career researchers tools to streamline their scientific workflows and manage data efficiently.
